@@ -1,0 +1,38 @@
+.three-content-cards {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 40px;
+}
+
+.three-content-cards h2 {
+  margin-bottom: 36px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.card {
+  width: 200px;
+  padding: 8px;
+  margin: 24px 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-img {
+  padding-top: 16px;
+  height: 100px;
+  width: 80%;
+}
+.card h3 {
+  margin: 16px 0;
+}
+.card p {
+  color: rgb(126, 126, 126);
+  margin-bottom: 24px;
+}
